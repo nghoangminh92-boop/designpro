@@ -400,7 +400,7 @@ export default function Hero() {
                               {project.previewDescription}
                             </p>
                             <a
-                              href={`/?demo=${project.demo}`}
+                              href={`./?demo=${project.demo}`}
                               className="mt-4 inline-flex items-center gap-1 rounded-full bg-slate-900 px-3 py-2 text-[9px] font-medium text-white transition hover:bg-slate-700"
                             >
                               Trải nghiệm sản phẩm <ArrowRight className="h-3 w-3" />
@@ -454,7 +454,7 @@ export default function Hero() {
                     {project.previewCta} · Bản dùng thử tương tác ngay trên trình duyệt
                   </p>
                   <a
-                    href={`/?demo=${project.demo}`}
+                    href={`./?demo=${project.demo}`}
                     className="inline-flex items-center gap-2 rounded-full border border-slate-600 px-4 py-2 text-xs font-semibold text-white transition hover:border-cyan-300 hover:text-cyan-200"
                   >
                     Mở sản phẩm mẫu <ArrowUpRight className="h-3.5 w-3.5" />

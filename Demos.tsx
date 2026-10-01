@@ -139,7 +139,7 @@ function DemoShell({
     <main className="min-h-screen bg-[#f5f6f8] text-slate-900">
       <header className={`border-b border-slate-200 bg-gradient-to-r ${colors[id]} to-white`}>
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
-          <a href="/" className="inline-flex items-center gap-2 text-sm font-medium text-slate-600 transition hover:text-slate-950">
+          <a href="./" className="inline-flex items-center gap-2 text-sm font-medium text-slate-600 transition hover:text-slate-950">
             <ArrowLeft className="h-4 w-4" />
             Về hồ sơ năng lực
           </a>
